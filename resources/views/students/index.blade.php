@@ -3,7 +3,7 @@
 @section('main')
 <div class="row">
 <div class="col-sm-12">
-    <br><h3 class="display-5">College Students Basic Information</h3></br>
+    <br><h3 class="display-5">College Student Basic Information</h3></br>
     <div>
     <a href="{{ route('students.create')}}" class="btn btn-primary">Add New Student</a>
     </div>   
