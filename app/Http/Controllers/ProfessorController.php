@@ -34,7 +34,7 @@ class ProfessorController extends Controller
         ]);
 
         $professor = new Professor([
-            'professor_id'=>$request->get('pofessor_id'),
+            'professor_id'=>$request->get('professor_id'),
             'lastname'=>$request->get('lastname'),
             'firstname'=>$request->get('firstname'),
             'middlename'=>$request->get('middlename'),
@@ -82,7 +82,7 @@ class ProfessorController extends Controller
             $professor->homeAddress = $request->get('homeAddress');
             $professor->contactNo = $request->get('contactNo');
             $professor->department = $request->get('department');
-            $student->save();
+            $professor->save();
 
             return redirect('/professor')->with('success', 'New Professor Information Updated!');     
     }

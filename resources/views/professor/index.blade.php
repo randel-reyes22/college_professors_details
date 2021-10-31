@@ -5,7 +5,7 @@
 <div class="col-sm-12">
     <br><h3 class="display-5">College Professor Information</h3></br>
     <div>
-    <a href="{{ route('professor.create')}}" class="btn btn-primary">Add New Student</a>
+    <a href="{{ route('professor.create')}}" class="btn btn-primary">Add New Professor</a>
     </div>   
 
   <table class="table table-striped">
